@@ -8,7 +8,9 @@ if($carrotlite_front) :
 	</article>
 	<?php endif; 
 endif; ?>
+<!-- Add Title Code Start Here -->
 <h1>test</h1>
+<!-- Add Title Code End Here -->
 <section class="main single">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="page">
