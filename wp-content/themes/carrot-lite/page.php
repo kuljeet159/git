@@ -5,10 +5,10 @@ if($carrotlite_front) :
 	$carrotlite_front_message = get_theme_mod('home_msg') ? carrotlite_sanitize(get_theme_mod('home_msg')) : false;
 	if($carrotlite_front_message) : ?>
 	<article class="intro">
-		<?php echo nl2br($carrotlite_front_message); ?>
 	</article>
 	<?php endif; 
 endif; ?>
+<h1>test</h1>
 <section class="main single">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<article class="page">
