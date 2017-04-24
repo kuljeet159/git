@@ -9,7 +9,7 @@ if($carrotlite_front) :
 	</article>
 	<?php endif; 
 endif; ?>
-<!-- Add Title Code Start Here -->
+
 <h1>test</h1>
 
 <section class="main single">
