@@ -50,6 +50,16 @@ function carrotlite_widgeted_areas() {
         'before_title' => '<h3 class="widget-title"><span>',
         'after_title' => '</span></h3>'
     ));
+    // Must be register a new sidebar for Second footer.
+    register_sidebar(array(
+        'name' => __( 'Footer 2', 'carrotlite'),
+        'id' => 'footer-widget-area-2',
+        'description' => __( 'Footer widget area 2', 'carrotlite'),
+        'before_widget' => '<article class="widget col col3">',
+        'after_widget' => '</article>',
+        'before_title' => '<h3 class="widget-title"><span>',
+        'after_title' => '</span></h3>'
+    ));
 }
 
 /*
